@@ -50,9 +50,8 @@ li:nth-child(4) a {
     background: black;
 }
 
-
 li a:hover {
-    background-color: #77da72;
+    background-color: #E4DA7D;
 
     transition:all .10s ease-in-out;
     cursor: pointer;
@@ -65,10 +64,22 @@ li a:hover {
 
 /*list*/
 
-p {
-    padding: 10px;
-    background-color: white;
-    border-radius: 5px;
+#opsi {
+    padding: 10px !important;
+    margin-bottom: 10px !important;
+    background-color: white !important;
+    border-radius: 5px !important;
+    text-align: left !important;
+    color: black;
+}
+
+#opsi:hover {
+    display: inline-block;
+    width: 88%;
+    transition:all .10s ease-in-out;
+    background-color: #094849 !important;
+    cursor: pointer;
+    color: #EDFEEC;
 }
 
 /* menu */
@@ -85,42 +96,11 @@ p {
     background-color: #eeeeee9f;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
+    padding-bottom: 0;
     z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-/*
-#tombol_pagetop {
-    float: right;
-    margin: 10px 50px 10px 15px;
-}
-
-#menu {
-    margin-right: 10px;
-    background-color: #BCF3B9;
-    border-style: none;
-}
-
-#signup, #login {
-    padding: 5px 20px 5px 20px;
-    border-style: solid;
-    border-color: #118486;
-    border-radius: 20px;
-    margin-left: 10px;
-    background-color: #118486;
-    color: white;
-    font-weight: bolder;
-}
-
-
-
-/*
-    kode warna heading hijau tua athema #103753 #OB8O79
-    kode warna hijau army #42555C
-    kode warna light green #EDFEEC #BCF3B9
-*/
