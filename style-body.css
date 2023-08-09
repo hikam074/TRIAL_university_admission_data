@@ -27,7 +27,7 @@ h1 {
     margin-top: 50px;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 #tnama, #tuniv, #tdept, #tadm {
@@ -106,8 +106,5 @@ td:hover{
     cursor: pointer;
     color: #094849;
 }
-
-
-
 
 /*atur kompatibilitas buat mobile*/
