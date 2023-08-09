@@ -1,0 +1,113 @@
+.container{
+    overflow: hidden;
+    margin: center;
+}
+
+/*title*/
+h1 {
+    text-align: center;
+    padding-top: 70px;
+    font-family: 'Lucida Sans';
+}
+
+
+/* table list */
+#table {
+    border: 0px;
+    outline-style: outset;
+    outline-color: #118486;
+    border-radius: 5px;
+    background: #b4b2b2;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.tab-1 {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+#tnama, #tuniv, #tdept, #tadm {
+    width: 25%;
+    padding: 7px 7px;
+    background: #118486;
+    color: white;
+}
+
+td {
+    width: 25%;
+    padding: 7px 7px;
+    background: #EEE;
+}
+
+/* hover */
+td{
+    transition:all .25s ease-in-out;
+}
+td:hover{
+    background-color: white;
+    cursor: pointer;
+}
+            
+/* input form*/
+.tab-2 {
+    margin: auto;
+    max-width: 30%;
+    margin-top: 50px;
+    border-style: outset;
+    border-radius: 4px;
+    padding: 25px;
+    background: #EEE;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    color: #063636;
+    text-align: left;    
+}
+
+.tab-2 input{
+    display: block;
+    width: 96%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 7px 5px;
+    border-style: inset;
+    border-radius: 5px;
+    border-color: beige;
+}
+
+/* button */
+#boon {
+    margin: auto;
+    width: 100%;
+}
+
+#addbtn, #editbtn, #rembtn {
+    text-align: center;
+    font-family: 'lucida sans';
+    font-weight: bold;
+    width: 32%;
+    background-color: #118486;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    border-style: solid;
+    border-color: #118486;
+}
+
+#addbtn:hover, #editbtn:hover, #rembtn:hover {
+    transition:all .10s ease-in-out;
+    background-color: #EDFEEC;
+    cursor: pointer;
+    color: #094849;
+}
+
+
+
+
+/*atur kompatibilitas buat mobile*/

@@ -1,0 +1,126 @@
+#pagetop {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0px 7px 0px 7px;
+    background-color: #ecfef3;
+    font-family: 'Lucida Sans';
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+/* nav */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    background-color: #118486;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:nth-child(1) a {
+    background: #111;
+    margin-right: 20px;
+}
+
+li:nth-child(2) a {
+    background: #118486;
+}
+
+li:nth-child(3) a {
+    background: none;
+    color: black;
+}
+
+li:nth-child(4) a {
+    background: black;
+}
+
+
+li a:hover {
+    background-color: #77da72;
+
+    transition:all .10s ease-in-out;
+    cursor: pointer;
+    color: #063636;
+}
+
+#home {
+    float: left;
+}
+
+/*list*/
+
+p {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* menu */
+.dropdown {
+    float: left;
+    display: inline-block;
+    background: #118486; 
+}
+        
+.dropdown-content {
+    display: none;
+    text-align: left;
+    position: absolute;
+    background-color: #eeeeee9f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*
+#tombol_pagetop {
+    float: right;
+    margin: 10px 50px 10px 15px;
+}
+
+#menu {
+    margin-right: 10px;
+    background-color: #BCF3B9;
+    border-style: none;
+}
+
+#signup, #login {
+    padding: 5px 20px 5px 20px;
+    border-style: solid;
+    border-color: #118486;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color: #118486;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+/*
+    kode warna heading hijau tua athema #103753 #OB8O79
+    kode warna hijau army #42555C
+    kode warna light green #EDFEEC #BCF3B9
+*/

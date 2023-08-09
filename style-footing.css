@@ -1,0 +1,11 @@
+#pagefooter {
+    position: static;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    max-width: 100%;
+    padding: 21px 21px 21px 21px;
+    background-color: #ecfef3;
+    font-family: 'Lucida Sans';
+    font-size: smaller;
+}

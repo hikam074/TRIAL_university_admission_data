@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>University's Admission Data</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style-body.css">
+    </head>
+
+    <body>
+
+        <div id="pagetop">
+            <link rel="stylesheet" href="style-heading.css">
+            <ul class="tombol_pagetop" id="tombol_pagetop">
+                <li id="login"><a href="https://www.google.com/">Log in</a></li>    
+                <li id="signup"><a href="https://www.google.com/">Sign Up</a></li>
+                <li id="FAQ"><a href="https://www.google.com/">FAQ</a></li>
+                <li id="home"><a href="https://www.google.com/">O</a></li>
+                <li id="menu" class="dropdown">
+                    <a>
+                        Menu
+                        <span>
+                            <div class="dropdown-content">
+                                <p>Profil</p>
+                                <p>Struktur</p>
+                                <p>Admisi</p>
+                                <p>Data</p>
+                                <p>Tentang Kami</p>
+                            </div>
+                        </span>
+                    </a>
+                </li>
+       
+            </ul>
+
+        </div>
+
+        <div class="container">
+
+            <h1>UNIVERSITY'S ACCEPTANCE DATA INPUT</h1>
+        
+            <div class="tab tab-2">
+                <div id="filler">
+                    Name :<input type="text" name="name" id="name" placeholder="Fill in the full name without abbreviation">
+                    University :<input type="text" name="univ" id="univ" placeholder="Fillfully, ex: Universitas Riau">
+                    Department :<input type="text" name="dept" id="dept" placeholder='Use "Jurusan" name, ex: Kedokteran '>
+                    Admission line :<input type="text" name="adm" id="adm" placeholder="Specifically, ex: SNBT, Mandiri - SMUB">    
+                </div>
+                <div id="boon">
+                    <button id="addbtn" onclick="addHtmlTableRow();">Add</button>
+                    <button id="editbtn" onclick="editHtmlTbleSelectedRow();">Edit</button>
+                    <button id="rembtn" onclick="removeSelectedRow();">Remove</button>
+                </div>
+            </div>
+            <div class="tab tab-1">
+                <table id="table">
+                    <tr>
+                        <th id="tnama">Name</th>
+                        <th id="tuniv">University</th>
+                        <th id="tdept">Department</th>
+                        <th id="tadm">Admission line</th>    
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div id="pagefooter">
+            <link rel="stylesheet" href="style-footing.css">
+            <p>
+                <a>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla, tortor eget scelerisque lacinia, sapien metus cursus turpis, id maximus neque arcu vitae enim. Integer eleifend ligula in nulla bibendum, ut euismod risus tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus diam enim, congue in lacus at, placerat ullamcorper diam. Quisque tempus arcu elit, in gravida quam tincidunt a. Maecenas lobortis eros ut lectus blandit consequat. Donec et nulla id quam elementum volutpat. Aliquam sollicitudin iaculis odio euismod ullamcorper. Nullam dictum, erat sed interdum ullamcorper, nisl turpis tristique ex, non efficitur augue tortor vitae erat. Sed in dolor gravida, eleifend erat nec, lacinia libero. Fusce risus nibh, tempus non ante nec, fermentum efficitur leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. In hac habitasse platea dictumst. Ut nec consectetur justo, vel pharetra enim. Aliquam tincidunt urna in aliquet pretium.
+                </a>
+                <br><br>
+                <a>
+                    @ 2023 copyright ICT Team UAD
+                </a>
+            </p>
+        </div>
+
+        <script src="inputer.js"></script>
+        
+    </body>
+</html>
